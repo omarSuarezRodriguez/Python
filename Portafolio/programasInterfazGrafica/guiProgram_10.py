@@ -6,6 +6,7 @@ from programasInterfazGrafica import guiMetodos
 ventana = Tk()
 ventana.title("Programa 10")
 frame = ttk.Frame(ventana)
+print("Esto es una prueba")
 
 # Label 1
 ttk.Label(frame, text="Mostrar los números pares entre 1 al 100").pack(padx=10, pady=10)
