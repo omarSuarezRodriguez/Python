@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-from programasInterfazGrafica import guiMetodos
+#from programasInterfazGrafica import guiMetodos
 
 # Variables globales
 cantidad = 0
@@ -97,5 +97,5 @@ ventana = Tk()
 ventana.title("Programa 16")
 frame_1 = frame1(ventana)
 frame_1.grid(row=0, column=0)
-guiMetodos.centrar(ventana)
+#guiMetodos.centrar(ventana)
 ventana.mainloop()
