@@ -14,6 +14,7 @@ class frame1(Frame):
         self.boton_1 = Button(miVentana, text="Sumar", width=20, command=self.clicked)
         self.label_3 = Label(miVentana, text="Resultado:")
         self.box_3 = Entry(miVentana)
+        #Prueba
 
         self.label_1.grid(row=0, column=0, padx=5, pady=5)
         self.box_1.grid(row=0, column=1, padx=5, pady=5)
