@@ -48,3 +48,4 @@ adorno = Producto(1, 'ADORNO', 'Vaso Adornado', 'Vaso de Porcelana Rosado')
 print(adorno.__dict__)  # Imprime los atributos del objeto
 
 print(catalogo1.__dict__)
+
