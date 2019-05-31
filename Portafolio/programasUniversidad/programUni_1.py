@@ -49,3 +49,40 @@ print(adorno.__dict__)  # Imprime los atributos del objeto
 
 print(catalogo1.__dict__)
 
+class Adorno(Producto):
+    pass
+
+adorno1 = Adorno(1, 'ADORNO', 'Vaso Adornado', 'Vaso de Porcelana Rosado')
+print(adorno1.__dict__)
+
+
+
+#Herencia multiple
+
+class German:
+    def __init_(self):
+        print('OE')
+
+    def hablarg(self):
+        print('Llave')
+
+
+class Paty:
+    def __init__(self):
+        print('Juepuerca')
+
+    def hablarpt(self):
+        print('Me encanta que grite')
+
+
+class Pantera(German, Paty):
+    def hablarp(self):
+        print('Arrecha la joda')
+
+
+
+pantera1 = Pantera()
+
+pantera1.hablarg()
+pantera1.hablarpt()
+pantera1.hablarp()
