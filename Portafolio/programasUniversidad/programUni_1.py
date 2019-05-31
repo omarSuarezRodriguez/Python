@@ -25,10 +25,26 @@ class Catalogo:
 
     def mostrar(self):
         for p in self.peliculas:
-            print(p) #Imprimir pelicula
+            print(p)  # Imprimir pelicula
 
-pelicula1= Pelicula("Terminator: Destino Oculto", 175, 2019)
-catalogo1 = Catalogo([pelicula1]) #Añadir la pelicula
+
+pelicula1 = Pelicula("Terminator: Destino Oculto", 175, 2019)
+catalogo1 = Catalogo([pelicula1])  # Añadir la pelicula
 catalogo1.mostrar()
 catalogo1.agregar(Pelicula("Detective Pikachu:", 105, 2019))
 
+
+# Herencia
+class Producto:
+    def __init__(self, referencia, tipo, nombre, descripcion):
+        self.referencia = referencia
+        self.tipo = tipo
+        self.nombre = nombre
+        self.descripcion = descripcion
+
+
+adorno = Producto(1, 'ADORNO', 'Vaso Adornado', 'Vaso de Porcelana Rosado')
+
+print(adorno.__dict__)  # Imprime los atributos del objeto
+
+print(catalogo1.__dict__)
