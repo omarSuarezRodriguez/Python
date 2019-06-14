@@ -1,5 +1,5 @@
 from tkinter import *
-#from programasInterfazGrafica import guiMetodos
+from programasInterfazGrafica import guiMetodos
 
 
 class frame1(Frame):
@@ -40,5 +40,5 @@ ventana = Tk()
 ventana.title("Programa 15")
 frame_1 = frame1(ventana)
 frame_1.grid(row=0, column=0)
-#guiMetodos.centrar(ventana)
+guiMetodos.centrar(ventana)
 ventana.mainloop()
