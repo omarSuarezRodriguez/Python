@@ -7,7 +7,7 @@
 
 
 ##################
-##################   Copiar y pegar todo el codigo para probar directamente en interprete
+##################   Copiar y pegar todo el codigo para probar directamente en el intérprete
 ##################
 
 
