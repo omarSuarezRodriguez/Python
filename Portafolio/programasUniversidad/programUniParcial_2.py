@@ -1,9 +1,11 @@
 
-## Dickson Omar Suarez Rodriguez
+## Omar Suarez Rodriguez
+
+## Parcial 2
+## Análisis de algoritmos
+
 
 ## Unipamplona
-
-## Análisis de algoritmos
 
 
 ##################
