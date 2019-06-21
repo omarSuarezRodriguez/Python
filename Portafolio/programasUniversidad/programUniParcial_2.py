@@ -6,6 +6,11 @@
 ## Análisis de algoritmos
 
 
+##################
+##################   Copiar y pegar todo el codigo para probar directamente en interprete
+##################
+
+
 
 ######  Pruebas puntos parcial
 
